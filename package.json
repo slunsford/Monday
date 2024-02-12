@@ -64,6 +64,11 @@
                 "default": "6",
                 "group": "homepage"
             },
+            "featured_tags": {
+                "type": "boolean",
+                "default": false,
+                "group": "homepage"
+            },
             "featured_tag_slug_1": {
                 "type": "text",
                 "group": "homepage"
