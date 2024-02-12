@@ -58,6 +58,36 @@
                 ],
                 "default": "Modern sans-serif"
             },
+            "max_tags_per_page": {
+                "type": "select",
+                "options": ["1", "2", "3", "4", "5", "6"],
+                "default": "6",
+                "group": "homepage"
+            },
+            "featured_tag_slug_1": {
+                "type": "text",
+                "group": "homepage"
+            },
+            "featured_tag_slug_2": {
+                "type": "text",
+                "group": "homepage"
+            },
+            "featured_tag_slug_3": {
+                "type": "text",
+                "group": "homepage"
+            },
+            "featured_tag_slug_4": {
+                "type": "text",
+                "group": "homepage"
+            },
+            "featured_tag_slug_5": {
+                "type": "text",
+                "group": "homepage"
+            },
+            "featured_tag_slug_6": {
+                "type": "text",
+                "group": "homepage"
+            },
             "show_author": {
                 "type": "boolean",
                 "default": true,
